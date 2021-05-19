@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1em;
+}
+
+.container {
+  margin: 3rem auto;
+  width: min(90%, 860px);
+}
+
+.navbar {
+  max-width: 860px;
+  margin: 0 auto;
+  min-height: 3rem;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.navbar button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 1.25em 1.75em;
+}
+
+#user-info,
+#other-info,
+#outdoor-info {
+  font-family: "Times New Roman", Times, serif;
+  margin: 2rem 0;
+  display: none;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 50px;
+}
+
+.content .active {
+  display: flex !important;
+}
+
+.loaded-content {
+  font-family: "Times New Roman", Times, serif;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 50px;
+}

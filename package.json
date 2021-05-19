@@ -1,0 +1,29 @@
+{
+  "name": "onepager",
+  "version": "1.0.0",
+  "description": "Test for a website with one page, everything loads asynchronously",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "javascrip",
+    "nodejs",
+    "test",
+    "onepager",
+    "ajax",
+    "async"
+  ],
+  "author": "begeos",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
